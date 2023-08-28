@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+    background-color: black;
+}
+.navbar{
+    margin-top: -12%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+#navlist{
+    display: flex;
+}
+#navlist li{
+    list-style: none;
+    font-size: 2rem;
+    margin: 3px;
+}
+#navlist li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+#navlist li a:hover{
+    background-color: red;
+    border-radius:40px;
+}
+ h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 10px;
+    color: white;
+}
+#details{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+h1{
+    font-size: 3.4rem;
+    color: white;
+    margin-left: 3px;
+}
+span{
+    color: red;
+    transition: all 3s ease-in-out 1s;
+}
+p{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+}
+#des{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    background-color: goldenrod;
+    border-radius: 20px;
+    color: blanchedalmond;
+    margin-top: 15px;
+    padding: 14px;
+}
+img{
+    height: 400px;
+    width: 361px;
+    margin-left: 60%;
+    margin-top: -20%;
+    border: solid whitesmoke 2px;
+}
+.left ul li{
+    color: white;
+}
+#about{
+    width: 100vw;
+    height: 800px;
+}
+#about .box{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 10px 100px;
+}
+.right p{
+    width: 40%;
+    margin-top: -130px;
+    float: right;
+    padding: 10px;
+    max-height: 800px;
+    color: greenyellow;
+}
+/* .box h2{
+    margin: auto;
+    padding-left: 400px;
+} */
+#about .left ul li{
+    font-size: 2rem;
+    list-style: none;
+}
+#about .left ul li span{
+    color: goldenrod;
+}
+#services{
+    clear: right;
+}
+.prime_center{
+    text-align: center;
+}
+#serv{
+   display: flex; 
+}
+#serv .box{
+    border: white solid 2px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#serv .box p{
+    color: brown;
+}
+#sec{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    background-color: goldenrod;
+    border-radius: 20px;
+    color: blanchedalmond;
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 27%;
+    font-size: 1.4rem ;
+}
+#a_b{
+    font-size: 2rem;
+}
+#list{
+    padding: 20px;
+}
+#list li{
+    list-style: none;
+    padding: 20px;
+    font-size: 2.5rem;
+    color: blueviolet;
+    border-radius: 20px;
+    font-weight: bolder;
+    transition: width 1s, height 2s;
+}
+#list li:hover{
+    transform: scale(1.5);
+    display: inline-block;
+    background-color: greenyellow;
+    color: coral;
+}
+.area{
+    display: flex;
+    justify-content: space-between;
+}
+.left_area li {
+    list-style: none;
+    color: aliceblue;
+    margin: 30px 15px;
+    font-size: 1.5rem;
+}
+.left_area li i{
+    color: yellow;
+    padding: 10px;
+}
+.left_area li i:hover{
+    transform: translate(-17px,-17px);
+}
+.left_area span{
+    color: white;
+}
+.right_area{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: beige; */
+}
+.right_area input,textarea{
+    padding: 10px 50px;
+    margin-top: 20px;
+    background-color: azure;
+}
+.right_area ::placeholder{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+}
+.footerclass{
+    margin-top: 30px;
+    width: 100vw;
+}
+.footerclass p{
+    text-align: left;
+    font-size: 1.8rem;
+    margin-left: 15px;
+    font-weight: 900;
+}
+#skills{
+    height: 800px;
+}
+._ski{
+    margin: 50px 30px;
+    color: purple;
+    display: flex;   
+    flex-wrap: wrap;
+    font-size: 2rem;
+    gap: 60px;
+}
+._ski li{
+    list-style: none;
+    border: black solid 2px;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-weight: bolder;
+    transition: all 2s;
+}
+._ski li:hover{
+    transform: scale(1.7);
+    background-color: orangered;
+    
+}
+
+
+
+
+
+
